@@ -9,9 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cookie": "^0.3.1",
     "express": "^4.14.0",
+    "http-proxy-middleware": "^0.17.4",
     "open": "0.0.5",
     "playground-js-api": "^0.1.11",
-    "serve-static": "^1.11.1"
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "serve-static": "^1.11.1",
+    "set-cookie-parser": "^2.0.0",
+    "whatwg-fetch": "^2.0.3"
   }
 }

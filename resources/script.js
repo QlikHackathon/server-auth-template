@@ -1,14 +1,15 @@
 // Input your config
-var config = {}
+var config={
+	host:"localhost",
+	prefix:"/playground/",
+	port:"8000",
+	appname:"5f2ba8ba-3f9b-4ac2-a823-e5c9aea4e18f"
+};
 
 var app
 var alteredState = 'SecondState'
 var selectionField = 'Recorded Class'
 var hypercube
-
-function authenticate() {
-  Playground.authenticate(config)
-}
 
 function main() {
   // @ts-ignore

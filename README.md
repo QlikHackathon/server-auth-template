@@ -1,4 +1,8 @@
-# playground-capabilities-template
-Template project for using the capabilities API with Qlik Playground
+# server-auth-template
+Capabilities API with Qlik Playground using server-side authentication
 
-The charts and hypercubes created in this project are based on the "NASA Meteorite Landing" dataset available at [Qlik Playground](http://playground.qlik.com).
+## To get started
+
+1. Create a config.json from the config.json.template
+2. `node index.js`
+3. Visit http://localhost:8000
